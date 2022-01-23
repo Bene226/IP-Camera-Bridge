@@ -28,3 +28,4 @@ COPY /Y IPCameraBridge.dll %INSDIR%
 REGSVR32.EXE /S %INSDLL%
 RUNDLL32.EXE %INSDLL%,ShowSettings
 pause
+
